@@ -40,6 +40,45 @@
       "progressUpdateIntervalMs": 500
     },
     {
+      "text": "spark.conf.getAll",
+      "user": "anonymous",
+      "dateUpdated": "2018-10-21 22:03:24.287",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res8: Map[String,String] \u003d Map(zeppelin.pyspark.python -\u003e python, spark.driver.host -\u003e 192.168.1.9, zeppelin.dep.localrepo -\u003e local-repo, zeppelin.spark.sql.stacktrace -\u003e false, spark.driver.port -\u003e 50510, master -\u003e local[*], spark.repl.class.uri -\u003e spark://192.168.1.9:50510/classes, spark.jars -\u003e \"\", zeppelin.spark.useHiveContext -\u003e true, spark.repl.class.outputDir -\u003e /var/folders/y7/lqmdqv4d4031s6kdjjr5g11h0000gp/T/spark3927317568085030153, zeppelin.spark.sql.interpolation -\u003e false, zeppelin.spark.importImplicit -\u003e true, zeppelin.interpreter.output.limit -\u003e 102400, spark.app.name -\u003e Zeppelin, zeppelin.R.cmd -\u003e R, zeppelin.spark.maxResult -\u003e 1000, zeppelin.pyspark.useIPython -\u003e true, zeppelin.spark.concurrentSQL -\u003e false, zeppelin.spark.enableSupportedVersionCheck -\u003e true, zeppelin.spa..."
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1540133736576_-161092328",
+      "id": "20181021-215536_1544666669",
+      "dateCreated": "2018-10-21 21:55:36.576",
+      "dateStarted": "2018-10-21 22:03:24.316",
+      "dateFinished": "2018-10-21 22:03:25.235",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
       "user": "anonymous",
       "config": {},
       "settings": {
@@ -47,9 +86,9 @@
         "forms": {}
       },
       "apps": [],
-      "jobName": "paragraph_1540133736576_-161092328",
-      "id": "20181021-215536_1544666669",
-      "dateCreated": "2018-10-21 21:55:36.576",
+      "jobName": "paragraph_1540134204287_-1296009157",
+      "id": "20181021-220324_184772348",
+      "dateCreated": "2018-10-21 22:03:24.287",
       "status": "READY",
       "progressUpdateIntervalMs": 500
     }
